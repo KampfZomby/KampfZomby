@@ -1,16 +1,47 @@
-### Hi there 👋
+```js
+export default class MyProfile {
+  constructor() { }
 
-<!--
-**KampfZomby/KampfZomby** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  /**
+   * @returns {string} Name
+   */
+  get name() {
+    return "Robin";
+  }
 
-Here are some ideas to get you started:
+  /**
+   * @returns {string} Gender
+   */
+  get gender() {
+    return "male";
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  /**
+   * @returns {Array<string>}
+   */
+  get skillset() {
+    return [
+      "C++", "C#", "Python",
+      "React", "SQLite"
+    ];
+  }
+
+  /**
+   * @returns {Object}
+   */
+  get socials() {
+    return {
+      "discord": "KampfZomby#4574"
+      "steam"  : "https://steamcommunity.com/id/pxnguintheoriginal/"
+      "snapchat": "@kampfzomby"
+    }
+  }
+
+  /**
+   * @returns {string}
+   */
+  getMoreInfo() {
+    return "https://kampfzomby.github.io/";
+  }
+}
+```
