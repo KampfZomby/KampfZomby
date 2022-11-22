@@ -46,3 +46,10 @@ export default class MyProfile {
   }
 }
 ```
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=kampfzomby&theme=github_dark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kampfzomby&theme=github_dark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kampfzomby&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kampfzomby&theme=github_dark)
